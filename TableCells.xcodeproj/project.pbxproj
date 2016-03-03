@@ -14,6 +14,7 @@
 		0F1E4AA21C87A02A00F169FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E4AA01C87A02A00F169FC /* LaunchScreen.storyboard */; };
 		0F1E4AAD1C87A02A00F169FC /* TableCellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E4AAC1C87A02A00F169FC /* TableCellsTests.swift */; };
 		0F1E4AB81C87A02A00F169FC /* TableCellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E4AB71C87A02A00F169FC /* TableCellsUITests.swift */; };
+		0F1E4AC61C87A14300F169FC /* NameAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E4AC51C87A14300F169FC /* NameAndColorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0F1E4AB31C87A02A00F169FC /* TableCellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableCellsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1E4AB71C87A02A00F169FC /* TableCellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellsUITests.swift; sourceTree = "<group>"; };
 		0F1E4AB91C87A02A00F169FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1E4AC51C87A14300F169FC /* NameAndColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0F1E4A971C87A02A00F169FC /* AppDelegate.swift */,
 				0F1E4A991C87A02A00F169FC /* ViewController.swift */,
 				0F1E4A9B1C87A02A00F169FC /* Main.storyboard */,
+				0F1E4AC51C87A14300F169FC /* NameAndColorCell.swift */,
 				0F1E4A9E1C87A02A00F169FC /* Assets.xcassets */,
 				0F1E4AA01C87A02A00F169FC /* LaunchScreen.storyboard */,
 				0F1E4AA31C87A02A00F169FC /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1E4AC61C87A14300F169FC /* NameAndColorCell.swift in Sources */,
 				0F1E4A9A1C87A02A00F169FC /* ViewController.swift in Sources */,
 				0F1E4A981C87A02A00F169FC /* AppDelegate.swift in Sources */,
 			);
